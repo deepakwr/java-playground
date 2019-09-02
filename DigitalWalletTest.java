@@ -6,9 +6,6 @@ import java.util.Map;
 import java.util.Scanner;
 
 
-/*
- * Create TransactionException, DigitalWallet, and DigitalWalletTransaction classes here.
- */
 class TransactionException extends Exception{
     public final static int UNKNOWN_ERROR = -1;
     public final static int USER_NOT_AUTHORIZED=0;
